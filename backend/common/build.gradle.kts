@@ -1,4 +1,4 @@
 dependencies {
     compileOnly(libs.annotations)
-    compileOnly(libs.slf4j)
+    compileOnly(libs.slf4j.simple)
 }

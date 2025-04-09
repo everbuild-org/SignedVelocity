@@ -14,6 +14,9 @@ dependencies {
         exclude("com.github.MadMartian", "hydrazine-path-finding")
     }
     api(projects.signedvelocityBackendCommon)
+
+    testImplementation(libs.minestom.server)
+    testImplementation(libs.slf4j.simple)
 }
 
 // Publish to Maven Central
