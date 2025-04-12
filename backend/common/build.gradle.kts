@@ -59,7 +59,7 @@ publishing {
                 description.set(project.description)
                 url.set("https://github.com/4drian3d/SignedVelocity")
             }
-            artifactId = "signedvelocity-minestom"
+            artifactId = "signedvelocity-backend-common"
         }
     }
 }
